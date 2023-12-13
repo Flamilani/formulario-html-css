@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 667px) {
+    form {
+        flex-flow: column;
+    }
+
+    button {
+        display: none;
+    }
+  }
+
+input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 10px;
+    font-size: 22px;
+}
